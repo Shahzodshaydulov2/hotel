@@ -114,6 +114,10 @@ p {
   width: 33.3%;
   padding: 50px;
   text-align: center;
+  height: 100%;
+}
+.box:nth-child(1) {
+  height: 367px;
 }
 .box i {
   margin-bottom: 10px;
