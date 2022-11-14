@@ -116,9 +116,7 @@ p {
   text-align: center;
   height: 100%;
 }
-.box:nth-child(1) {
-  height: 367px;
-}
+
 .box i {
   margin-bottom: 10px;
 }
