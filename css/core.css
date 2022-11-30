@@ -23,17 +23,26 @@ p {
 
 .side-bar {
   position: fixed;
-  width: 25vh;
+  width: 0;
   height: 100vh;
   background-color: #333;
   right: 0;
-  display: none;
+  top: 0;
+  text-align: center;
+  transition: ease 0.5s;
 }
 .side-bar li {
   display: block;
+  padding: 10px;
 }
-.side-bar a {
+.side-bar li a {
   color: #fff;
+  display: none;
+}
+#close {
+  color: #fff;
+  text-align: right;
+  margin-right: 20px;
 }
 .text-primary {
   color: #f7c08a;
@@ -124,6 +133,9 @@ p {
 @media screen and (max-width: 480px) {
   #navbar ul{
     display: none;
+  }
+  .side-bar li a{
+    display: block;
   }
   .logo {
     padding-left: 20px;
